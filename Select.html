@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario select</title>
+</head>
+<body>
+    <form action="/Introduccion-web/guardado.html" method="GET">
+
+        <!--El value es el que envía el formulario
+        El valor nulo o vacío nos sirve como un place holder-->
+    
+        <select name="carros" id="carros">
+            <option value="">Seleccione un carro...</option>
+            <option value="volvo">VOLVO</option>
+            <option value="BMW">BMW</option>
+            <option value="audi">AUDI</option>
+        </select>
+        <br>
+
+        <select name="carros" id="carros">
+            <option value="volvo">VOLVO</option>
+            <option value="BMW" selected>BMW</option>
+            <option value="audi">AUDI</option>
+        </select>
+        <br><br>
+        <label for="comentarios:">Comentarios:</label>
+        <textarea name="comentarios" id="comentarios" cols="25" rows="5"
+        placeholder="Ingrese un comentario..."></textarea><!--Aqui va el valor del textarea-->
+<br><br>
+        <fieldset>
+            <legend>Nombre del formulario</legend>
+            <select name="carros" id="carros">
+                <option value="">Seleccione un carro...</option>
+                <option value="volvo">VOLVO</option>
+                <option value="BMW">BMW</option>
+                <option value="audi">AUDI</option>
+            </select>
+            <br>
+    
+            <select name="carros" id="carros">
+                <option value="volvo">VOLVO</option>
+                <option value="BMW" selected>BMW</option>
+                <option value="audi">AUDI</option>
+            </select>
+            <br><br>
+            <label for="comentarios:">Comentarios:</label>
+            <textarea name="comentarios" id="comentarios" cols="25" rows="5"
+            placeholder="Ingrese un comentario..."></textarea><!--Aqui va el valor del textarea-->
+    
+            <br><br>
+    
+            <input type="submit" value="Guardar">
+        </fieldset>
+        <br><br>
+
+        <input type="submit" value="Guardar">
+
+
+    
+    
+    
+    </form>
+</body>
+</html>
